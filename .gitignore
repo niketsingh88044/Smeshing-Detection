@@ -17,3 +17,7 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Embedding binary cache (regenerated locally / on build)
+glove.kv
+glove.kv.vectors.npy
