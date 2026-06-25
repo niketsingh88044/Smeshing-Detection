@@ -22,9 +22,9 @@ if st.button("Analyze"):
             prob_spam = result["probabilities"]["spam"]
 
             if label == "Smishing/Spam":
-                st.error(f"🚨 Detected as SPAM! (Probability: {prob_spam:.2f})")
+                st.error(f"🚨 Bhaiya ji spam h (Probability: {prob_spam:.2f})")
             else:
-                st.success(f"✅ Safe (HAM) (Probability of spam: {prob_spam:.2f})")
+                st.success(f"✅ safe to use (Probability of spam: {prob_spam:.2f})")
 
         except Exception as e:
             st.error(f"⚠️ API error: {e}")
